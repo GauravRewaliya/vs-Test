@@ -1,0 +1,8 @@
+export CLASSPATH=.; /// 
+echo $CLASSPATH
+
+export CLASSPATH=../java:.:
+export CLASSPATH=$CLASSPATH:/home/appnetix/LOG4J_HOME/log4j-1.2.16.jar:.
+
+/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar
+export CLASSPATH=/workspace/vs-Test/Commands/Temp/Paths:.:/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar
