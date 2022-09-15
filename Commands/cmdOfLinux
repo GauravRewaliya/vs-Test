@@ -1,3 +1,9 @@
+//check info
+>>ver & cat /etc/os-release
+
+
+
+
 export CLASSPATH=.; /// 
 echo $CLASSPATH
 
@@ -6,3 +12,12 @@ export CLASSPATH=$CLASSPATH:/home/appnetix/LOG4J_HOME/log4j-1.2.16.jar:.
 
 /workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar
 export CLASSPATH=/workspace/vs-Test/Commands/Temp/Paths:.:/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar
+        >>export PATH="${PWD}:${PATH}"  //to execute any thing //set path  //permition denied
+            >>ls -ls
+            >>>>chmod +x script-name-here  //fixed
+        >>    
+%%UN TAR
+>>tar -xvf yourfile.tar##ERROR Problims
+Q javac >>Picked up JAVA_TOOL_OPTIONS:  -Xmx3489m
+sol >>eg1>>export JAVA_TOOL_OPTIONS= -DFOOBAR="HelloWorld" ///get hello word always
+    >>unset JAVA_TOOL_OPTIONS
