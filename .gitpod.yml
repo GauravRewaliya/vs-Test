@@ -2,8 +2,14 @@
 # Please adjust to your needs (see https://www.gitpod.io/docs/config-gitpod-file)
 # and commit this file to your remote git repository to share the goodness with others.
 
+# tasks:
+#   - init: npm install
+#     command: npm run start
 tasks:
-  - init: npm install
-    command: npm run start
+  - command: export CLASSPATH=/workspace/vs-Test/Commands/Temp/Paths:.:/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar
+  - command: export PATH=${PATH}:workspace/vs-Test/Commands/Temp/PathExe
+  - command: unset JAVA_TOOL_OPTIONS
+
+
 
 
