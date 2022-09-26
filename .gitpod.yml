@@ -19,11 +19,17 @@
 
   tasks:
   - name: setpath done 
-    init : echo "hi"
+    # init : echo "hi"
     # init : echo yourself
     command:
             unset JAVA_TOOL_OPTIONS
-            export CLASSPATH=/workspace/vs-Test/Commands/Temp/Paths:.:/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar  
+  - name : yoooooo        
+    command: export CLASSPATH=/workspace/vs-Test/Commands/Temp/Paths:.:/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar
+  #  - name : ok
+  #   command: 
+  # tasks:
+          
+          # command: export CLASSPATH=/workspace/vs-Test/Commands/Temp/Paths:.:/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar  
           
 
 
