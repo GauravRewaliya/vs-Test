@@ -6,9 +6,11 @@
 #   - init: npm install
 #     command: npm run start
 tasks:
-  - command: export CLASSPATH=/workspace/vs-Test/Commands/Temp/Paths:.:/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar
-  - command: export PATH=${PATH}:workspace/vs-Test/Commands/Temp/PathExe
-  - command: unset JAVA_TOOL_OPTIONS
+  - name: setpath done 
+  - before: export CLASSPATH=/workspace/vs-Test/Commands/Temp/Paths:.:/workspace/vs-Test/Commands/Temp/Paths/mysql-connector-java-8.0.30.jar
+  - before: export PATH=${PATH}:workspace/vs-Test/Commands/Temp/PathExe
+  - before: unset JAVA_TOOL_OPTIONS
+  - command: echo "hii"
 
 
 
