@@ -1,8 +1,16 @@
 https://remotemysql.com/dashboard.php
 >>>remotemysql.com:3306
-dipege9045@xitudy.com Gaurav@123
->>cT3gafPYZK u1yFGoXLMa
+
+dipege9045@xitudy.com Gaurav@123   ///login of website
+>>cT3gafPYZK u1yFGoXLMa  //K
+
 >>SOdauWgWMm wslA1I4SUs
+
 Gaurav
 UWwSx55o0Q
 >>UWwSx55o0Q 4OTdHhHKv9
+
+Connection con=DriverManager.getConnection( "jdbc:mysql://remotemysql.com:3306/cT3gafPYZK","cT3gafPYZK","u1yFGoXLMa");
+
+//// xxxxx payed
+jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6516585","sql6516585","3Lf6i6qrwF" ///xx pass
